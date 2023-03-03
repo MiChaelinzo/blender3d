@@ -6,7 +6,7 @@ import base64
 # Define the DALL-E 2 prompt and generate the image
 prompt = "a cute cat playing with a ball of yarn"
 response = requests.post("https://api.openai.com/v1/images/generations", 
-                         headers={"Authorization": "Bearer <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>"}, 
+                         headers={"Authorization": "Bearer YOUR_API_KEY"}, 
                          json={"model": "image-alpha-001", "prompt": prompt})
 
 # Check if the request was successful
