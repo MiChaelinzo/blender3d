@@ -8,7 +8,7 @@ api_url = "https://api.openai.com/v1/images/generations"
 # Define the API request headers and parameters
 headers = {
     "Content-Type": "application/json",
-    "Authorization": "Bearer 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"
+    "Authorization": "Bearer YOUR_API_KEY"
 }
 params = {
     "model": "image-alpha-001",
